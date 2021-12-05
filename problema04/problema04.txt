@@ -1,0 +1,46 @@
+Elaborar un algoritmo que permita leer 3 números e imprima el mayor. Debe validar que sean diferentes, es decir, si hay números iguales debe enviar un mensaje de error.
+// algoritmo 
+1.Inicio 
+2. Pedimos al usuario el primer dato (a)
+3. Pedimos al usuario el segundo dato (b)
+4. Pedimos al usuario el tercer dato (c)
+5. Si el primer dato (a) = segundo dato (b) Or el segundo dato (b) = al tercer dato (c) Or el primer dato (a) = el tercer dato (c) entonces
+6. Presente un mensaje de error
+7. Si el primero (a) es mayor que el segundo (b) y el tercero (c) es menor que el primero (a) entonces
+8. Presente el numero mayor es (a)
+9. Si el segundo (b) es mayor que el primero (a) y el tercero (c) es menor que el segundo (b) entonces
+10. Presente el numero mayor es (b)
+11. Si el tercero (c) es mayor que el segundo (b) y el primero (a) es menor que el tercero (c) entonces
+12. Presente el numero mayor es (c)
+13. Fin
+
+// Miniespecificacion 
+
+1. Inicio 
+
+2. valor1, d[0,n]
+3. valor2, d[0,n] 
+4. valor3, d[0,n] 
+5. Escribir " Ingrese el numero 1"
+6. lea valor1
+7. Escribir " Ingrese el numero 2"
+8. lea valor2
+9. Escribir " Ingrese el numero 3"
+10. lea valor3
+
+11. Si  valor1 == valor2 or valor2 == valor3 or valor1 == valor3 entonces
+12. Escribir " error valores iguales"
+13. Fin_si
+14. Si valor1 > valor2 &&  valor3 < valor1 entonces
+15. Escribir "El numero mayor es: " + valor1
+16. Fin_Si
+17. Si valor2 > valor1 &&  valor3 < valor2 entonces
+18. Escribir "El numero mayor es: " + valor2
+19. Fin_Si
+20. Si valor3 > valor2 &&  valor1 < valor3 entonces
+21. Escribir "El numero mayor es: " + valor3
+22. Fin_Si
+
+23. Fin
+
+
