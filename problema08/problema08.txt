@@ -9,13 +9,16 @@ Elaborar un algoritmo que permita leer una medida (N) en número de metros y que
 6.  pies, d[0,n]
 7.  yarda, d[0,n]
 8.  cadena,  x(1000)[{0-9},{-,+, BS, /}]<-- ""
-9.  Mientras ( metro <= limite) entonces
-10. centimetro = metro * 100
-11. pulgada = centimetro / 2.53
-12. pies = pulgada / 12
-13. yarda = pies / 3
-14. cadena =  cadena + "   " + metro + "   "  + yarda + "   "  + pulgada + "   " + pies 
-15. Fin_Mientras
-16. Escribir " Metros    Yardas   Pulgadas   Pies"
-17. Escribir (cadena) 
-18. Fin
+9. Escriba "Ingrese el numero hasta el que generar" 
+10.  lea limite
+11.  Mientras ( metro <= limite) entonces
+12. centimetro = metro * 100
+13. pulgada = centimetro / 2.53
+14. pies = pulgada / 12
+15. yarda = pies / 3
+16. cadena =  cadena + "   " + metro + "   "  + yarda + "   "  + pulgada + "   " + pies 
+17. metro = metro + 1
+17. Fin_Mientras
+18. Escribir " Metros    Yardas   Pulgadas   Pies"
+19. Escribir (cadena) 
+20. Fin
